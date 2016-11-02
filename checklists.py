@@ -129,7 +129,7 @@ with open(checklists_filepath) as test_file:
 	uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
 
 #Welcome and list checklists
-print ("WELCOME TO CHECKLISTS")
+print ("WELCOME TO CHECKLISTS...")
 print ('\nThe following checklists are available in %s: ' % checklists_filepath)
 for keys in (uncompleted_checklists.keys()):
 	print (keys)
