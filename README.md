@@ -11,6 +11,7 @@ A simple tool to get things done right.
 ###To edit exsting checklists in an existing library
 * Edit the iso_checklists.json file
 * Add new checklists as json objects in this file
+* Note that the "Context" checklist is compulsory, all others are optional
   
   
 ...inspired by Atul Gawande's Checklist Manifesto
