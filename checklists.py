@@ -97,7 +97,8 @@ def dump_to_file(final_results):
 		json.dump(final_results, fp)
 	return ouput_filepath
 
-
+#----------------------------------------------------
+#PRINT ASCII ART
 print ("""\n\n\n
                ,
          (`.  : \              __..----..__
