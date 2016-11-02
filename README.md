@@ -1,5 +1,5 @@
 #Checklists
-A simple game to get things done right....
+A simple game to get things done right...  
 ...inspired by Atul Gawande's checklist manifesto
 
 ###To play the game
