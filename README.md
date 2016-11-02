@@ -1,5 +1,6 @@
-#ISO Checklists
-A simple game to help you test the ISO-SPA
+#Checklists
+A simple game to get things done right....
+...inspired by Atul Gawande's checklist manifesto
 
 ###To play the game
 1. Launch Terminal
