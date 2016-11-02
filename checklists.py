@@ -98,6 +98,26 @@ def dump_to_file(final_results):
 	return ouput_filepath
 
 
+print ("""\n\n\n
+               ,
+         (`.  : \              __..----..__
+          `.`.| |:          _,-':::''' '  `:`-._
+            `.:\||       _,':::::'         `::::`-.
+              \\`|    _,':::::::'     `:.     `':::`.
+               ;` `-''  `::::::.                  `::
+            ,-'      .::'  `:::::.         `::..    `:
+          ,' /_) -.            `::.           `:.     |
+        ,'.:     `    `:.        `:.     .::.          
+   __,-'   ___,..-''-.  `:.        `.   /::::.         |
+  |):'_,--'           `.    `::..       |::::::.      ::
+   `-'                 |`--.:_::::|_____\::::::::.__  ::|
+                       |   _/|::::|      \::::::|::/\  :|
+                       /:./  |:::/        \__:::):/  \  :
+                     ,'::'  /:::|        ,'::::/_/    `. ``-.__
+                    ''''   (//|/       ,';':,-'         `-.__  `'--..__
+                                                             `''---::::'
+""")
+
 #----------------------------------------------------
 #PROCESS
 
@@ -109,8 +129,8 @@ with open(checklists_filepath) as test_file:
 	uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
 
 #Welcome and list checklists
-print ("\nWELCOME TO CHECKLISTS")
-print ('The following checklists are available in %s: ' % checklists_filepath)
+print ("WELCOME TO CHECKLISTS")
+print ('\nThe following checklists are available in %s: ' % checklists_filepath)
 for keys in (uncompleted_checklists.keys()):
 	print (keys)
 
