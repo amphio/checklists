@@ -60,7 +60,7 @@
 	"Upload Progress":
 	{
     	"Is there no indication of upload progress? (y/n) :" : "n",
-    	"Are there any files missing? (y/n) :" : "y",
+    	"Are there any files missing? (y/n) :" : "n",
     	"Did all files upload? (y/n) :" : "y",
     	"Is the correct metadata shown? (y/n) :" : "y",
     	"Is yesterday's time and date displayed? (y/n) :" : "n",
