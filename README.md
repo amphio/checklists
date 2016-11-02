@@ -1,8 +1,7 @@
 #Checklists
-A simple game to get things done right...  
-...inspired by Atul Gawande's checklist manifesto
+A simple tool to get things done right.
 
-###To play the game
+###To run some checklists
 1. Launch Terminal
 2. cd to checklists/
 3. python checklists.py
@@ -12,6 +11,6 @@ A simple game to get things done right...
 ###To edit exsting checklists in an existing library
 * Edit the iso_checklists.json file
 * Add new checklists as json objects in this file
-
-
-
+  
+  
+...inspired by Atul Gawande's Checklist Manifesto
