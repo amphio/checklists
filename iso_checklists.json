@@ -1,9 +1,10 @@
  {
     "Context":
     {
-        "What build number are you testing? (v0.1.0, v0.1.1) :" : "",
+        "What is the most recent git hash on this project? (9dbbadb, 9d4bab6) :" : "",
         "Which environment are you testing? (dev, staging, live) :" : "",
         "What browser are you using? (Chrome, Safari, Internet Explorer) :" : "",
+        "Which version of the browser are you using? (9.0, 11.1) :" : "",
         "What OS are you using? (MacOS, Windows, Linux) :" : ""
     },
     
@@ -56,7 +57,7 @@
         "Does upload progress display on selecting the Upload button? (y/n) :" : "y"
 	},
 
-	"Upload Pnrogress":
+	"Upload Progress":
 	{
     	"Is there no indication of upload progress? (y/n) :" : "n",
     	"Are there any files missing? (y/n) :" : "y",
