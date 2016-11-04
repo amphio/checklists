@@ -75,6 +75,7 @@
     {
         "Can you navigate to Library? (y/n) :" : "y",
         "Can you search to get expected results? (y/n) :" : "y",
+        "Type the first three letters of an existing entry in the 'Composers' column. Do relevant auto-complete suggestions appear? (y/n) :" : "y",
         "Do relevant columns appear leftmost? (y/n) :" : "y",
         "Does selecting columns define grouping? (y/n) :" : "y",
         "Can you edit metadata? (y/n) :" : "y",
@@ -82,7 +83,7 @@
         "Edit metadata: Can you save your changes? (y/n) :" : "y",
         "Delete an asset. Did it dissapear? (y/n) :" : "y",
         "Does searching for it reveal it? (y/n) :" : "n",
-        "Select a column. Can you change the value of an entire group in one action? (y/n) :" : "y",
+        "Select a column and select the top-left checkbox. Can you edit metadata for the selected grouping? (y/n) :" : "y",
         "Select the home logo. Does the entire library show? (y/n) :" : "y",
         "Search for nothing. Does nothing show in results? (y/n) :" : "n",
         "Search for something. Are results appropriate? (y/n) :" : "y",
