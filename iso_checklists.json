@@ -6,7 +6,8 @@
         "Which environment are you testing? (dev, staging, live) :" : "",
         "What browser are you using? (Chrome, Safari, Internet Explorer) :" : "",
         "Which version of the browser are you using? (9.0, 11.1) :" : "",
-        "What OS are you using? (MacOS, Windows, Linux) :" : ""
+        "What OS are you using? (MacOS, Windows, Linux) :" : "",
+        "Please start a stopwatch now? (y/n) :" : ""
     },
     
     "Authentication":
@@ -26,6 +27,7 @@
         "Can you add and remove files from this upload? (y/n) :" : "y",
         "Can you upload assets without entering valid data in the highlighted required fields? (y/n) :" : "n",
         "Can you upload with a date in British format"  : "n",
+        "Can you start upload of a massive >2 GB file, and leave it uploading? (we'll come back to check on this later) (y/n) :" : "y",
         "Does upload progress display on selecting the Upload button? (y/n) :" : "y"
     },
 
@@ -40,9 +42,9 @@
     	"Can you add files? (y/n) :" : "y",
         "Can you remove and add files? (y/n) :" : "y",
         "Can you enter Capture device? (y/n) :" : "y",
-        "Does adding a performance ask you for fish? (y/n) :" : "n",
-        "Is start timecode of '00:00:00:00' accepted? (y/n) :" : "n",
-        "Is end timecode of '00:00:00.10' accepted? (y/n) :" : "y",
+        "Does adding a performance work? (y/n) :" : "y",
+        "Is start timecode of 'HH:MM:SS:FF' accepted? (y/n) :" : "n",
+        "Is end timecode of form 'HH:MM:SS.SS' accepted? (y/n) :" : "y",
         "Are subjects required? (y/n) :" : "y",
         "Are placeholder examples informative? (y/n) :" : "y",
         "Can you enter useful content in fields? (y/n) :" : "y",
@@ -77,7 +79,6 @@
         "Does selecting columns define grouping? (y/n) :" : "y",
         "Can you edit metadata? (y/n) :" : "y",
         "Edit metadata: Are auto-complete suggestions presented? (y/n) :" : "y",
-        "Edit metadata: Did an image David Hasselhoff appear? (y/n) :" : "n",
         "Edit metadata: Can you save your changes? (y/n) :" : "y",
         "Delete an asset. Did it dissapear? (y/n) :" : "y",
         "Does searching for it reveal it? (y/n) :" : "n",
@@ -86,5 +87,13 @@
         "Search for nothing. Does nothing show in results? (y/n) :" : "n",
         "Search for something. Are results appropriate? (y/n) :" : "y",
         "Select some assets and download them. Do you get what you expect? (y/n) :" : "y"
+    },
+
+    "Authentication – Session Tokens":
+    {
+        "Have you been logged in, without refreshing the page, for more than 1 hour? (y/n) :" : "y",
+        "Can you start an new Simple file upload? (y/n) :" : "y",
+        "Does file upload progress show progress? (y/n) :" : "y",
+        "Select ISO Library. Do the contents of the library appear as expected? (y/n) :" : "y"
     }
 }
