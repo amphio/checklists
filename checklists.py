@@ -5,6 +5,8 @@ import json
 import uuid
 import subprocess
 import sys
+import time
+import datetime
 from collections import OrderedDict, namedtuple
 from pprint import pprint
 
@@ -104,9 +106,11 @@ def dump_to_file(final_results):
 	"""
 	#Add prefix result
 	if final_results["Results"]["Test passed"] == True:
-		ouput_filepath = "results/PASSED_" + str(uuid.uuid1()) + ".json"
+		time_now = time.time()
+		ouput_filepath = "results/" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_PASSED.json"
 	else:
-		ouput_filepath = "results/FAILED_" + str(uuid.uuid1()) + ".json"
+		time_now = time.time()
+		ouput_filepath = "results/" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_FAILED.json"
 	with open(ouput_filepath,  'w') as fp:
 		json.dump(final_results, fp)
 	return ouput_filepath
