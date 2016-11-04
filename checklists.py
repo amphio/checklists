@@ -8,6 +8,20 @@ import sys
 from collections import OrderedDict, namedtuple
 from pprint import pprint
 
+def load_libray():
+	try:
+		print ("\nTo get started, please enter the filename of your checklist library (e.g. iso_checklists)...")
+		checklists_filename = raw_input("(filename) > ")
+		#Filepath to checkslists json
+		checklists_filepath = checklists_filename + ".json"
+		#Load file
+		with open(checklists_filepath) as test_file:    
+			uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
+		return checklists_filepath, uncompleted_checklists
+	except Exception as e:
+		print ("The file %s was not found in the current directory. \nPlease try again..." % (checklists_filepath))
+		load_libray()
+
 
 def run_checklist(items):
 	"""
@@ -122,15 +136,14 @@ print ("""\n\n\n
 #----------------------------------------------------
 #PROCESS
 
-#Filepath to checkslists json
-checklists_filepath = "iso_checklists.json"
-
-#Load checklist
-with open(checklists_filepath) as test_file:    
-	uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
 
 #Welcome and list checklists
 print ("WELCOME TO CHECKLISTS...")
+
+#Load library
+checklists_filepath, uncompleted_checklists = load_libray()
+
+#Show checklists in selected library
 print ('\nThe following checklists are available in %s: ' % checklists_filepath)
 for keys in (uncompleted_checklists.keys()):
 	print (keys)
