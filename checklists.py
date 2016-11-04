@@ -2,7 +2,6 @@ from __future__ import print_function
 import sys
 import time
 import json
-import uuid
 import subprocess
 import sys
 import time
@@ -21,6 +20,7 @@ def load_libray():
 			uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
 		return checklists_filepath, uncompleted_checklists
 	except Exception as e:
+		raise e
 		print ("The file %s was not found in the current directory. \nPlease try again..." % (checklists_filepath))
 		load_libray()
 
