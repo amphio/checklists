@@ -27,7 +27,7 @@
         "Can you add and remove files from this upload? (y/n) :" : "y",
         "Can you upload assets without entering valid data in the highlighted required fields? (y/n) :" : "n",
         "Can you upload with a date in British format"  : "n",
-        "Can you start upload of a massive >2 GB file, and leave it uploading? (we'll come back to check on this later) (y/n) :" : "y",
+        "Can you start upload of a >2 GB file, and leave it uploading? (we'll come back to check on this later) (y/n) :" : "y",
         "Does upload progress display on selecting the Upload button? (y/n) :" : "y"
     },
 
@@ -40,7 +40,7 @@
     	"Do auto-complete suggestions appear when you type? (y/n) :" : "y",
         "Can you proceed to next step without entering valid date? (y/n) :" : "n",
     	"Can you add files? (y/n) :" : "y",
-        "Can you remove and add files? (y/n) :" : "y",
+        "Can you remove files? (y/n) :" : "y",
         "Can you enter Capture device? (y/n) :" : "y",
         "Does adding a performance work? (y/n) :" : "y",
         "Is start timecode of 'HH:MM:SS:FF' accepted? (y/n) :" : "n",
@@ -55,8 +55,6 @@
         "Can you edit the start/end time of this performance? (y/n) :" : "y",
         "...and remove it? (y/n) :" : "y",
         "Can you zoom? (y/n) :" : "y",
-        "Can you remove files? (y/n) :" : "y",
-        "Can you add files? (y/n) :" : "y",
         "Does upload progress display on selecting the Upload button? (y/n) :" : "y"
 	},
 
@@ -88,6 +86,14 @@
         "Search for nothing. Does nothing show in results? (y/n) :" : "n",
         "Search for something. Are results appropriate? (y/n) :" : "y",
         "Select some assets and download them. Do you get what you expect? (y/n) :" : "y"
+    },
+
+    "Download":
+    {
+        "Do the expected assets appear available in Query view? (y/n) :" : "y",
+        "Can you download them? (y/n) :" : "y",
+        "Are downloaded filenames sensible? (y/n) :" : "y",
+        "Do downloaded videos play correctly? (y/n) :" : "y"
     },
 
     "Authentication – Session Tokens":
