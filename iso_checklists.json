@@ -37,7 +37,7 @@
         "Are placeholder examples correct? (y/n) :" : "y",
     	"Can you enter metadata? (y/n) :" : "y",
     	"Does [tab] and [enter] navigate between fields? (y/n) :" : "y",
-    	"Do auto-complete suggestions appear when you type? (y/n) :" : "y",
+    	"Do auto-complete suggestions appear when you type? (y/n) :" : "n",
         "Can you proceed to next step without entering valid date? (y/n) :" : "n",
     	"Can you add files? (y/n) :" : "y",
         "Can you remove files? (y/n) :" : "y",
@@ -60,7 +60,6 @@
 
 	"Upload Progress":
 	{
-    	"Is there no indication of upload progress? (y/n) :" : "n",
     	"Are there any files missing? (y/n) :" : "n",
     	"Did all files upload? (y/n) :" : "y",
     	"Is the correct metadata shown? (y/n) :" : "y",
@@ -77,7 +76,7 @@
         "Do relevant columns appear leftmost? (y/n) :" : "y",
         "Does selecting columns define grouping? (y/n) :" : "y",
         "Can you edit metadata? (y/n) :" : "y",
-        "Edit metadata: Are auto-complete suggestions presented? (y/n) :" : "y",
+        "Edit metadata: Are auto-complete suggestions presented? (y/n) :" : "n",
         "Edit metadata: Can you save your changes? (y/n) :" : "y",
         "Delete an asset. Did it dissapear? (y/n) :" : "y",
         "Does searching for it reveal it? (y/n) :" : "n",
