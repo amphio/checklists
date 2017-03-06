@@ -44,7 +44,7 @@
         "Can you enter Capture device? (y/n) :" : "y",
         "Does adding a performance work? (y/n) :" : "y",
         "Is start timecode of 'HH:MM:SS:FF' accepted? (y/n) :" : "n",
-        "Is end timecode of form 'HH:MM:SS.SS' accepted? (y/n) :" : "y",
+        "Is end timecode of form 'HH:MM:SS.MS' accepted? (y/n) :" : "y",
         "Are subjects required? (y/n) :" : "y",
         "Are placeholder examples informative? (y/n) :" : "y",
         "Can you enter useful content in fields? (y/n) :" : "y",
