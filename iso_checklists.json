@@ -53,6 +53,7 @@
         "Can you edit the start/end time of this performance? (y/n) :" : "y",
         "...and remove it? (y/n) :" : "y",
         "Can you zoom? (y/n) :" : "y",
+        "Please take a note of the start and end times of the performances for later reference :" : "",
         "Does upload progress display on selecting the Upload button? (y/n) :" : "y"
 	},
 
@@ -107,6 +108,7 @@
         "Are you able to download them? (y/n) :" : "y",
         "Are all .wav audio files available as mp3? (y/n) :" : "y",
         "Are all .mov video files available as 1080p h.264? (y/n) :" : "y",
-        "Can you download processed media? (y/n) :" : "y"
+        "Can you download processed media? (y/n) :" : "y".
+        "Do downloaded perfromance clips, match the excerpts that you specified in concert upload? (y/n) :" : "y"
     }
 }
