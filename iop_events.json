@@ -10,7 +10,7 @@
     
     "Event pages":
     {
-    	"Select a link for a future event, does the event page load quickly and correctly? (y/n) :" : "y",
+    	"Select a link for a future event that isn't an IOP conference, does the event page load quickly and correctly? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This services is in BETA' banner appear? (y/n) :" : "y",
         "Does the link to the old site work? (y/n) :" : "y",
@@ -45,12 +45,29 @@
 
     "Discovery page":
     {
-        "Does the Discovery page work? (y/n) :" : "y"
+        "Select 'Events' from the top navigaiton bar. Does the Find Physics Events page load correctly? (y/n) :" : "y",
+        "Does the navigation bar and BETA baner appear correctly? (y/n) :" : "y",
+        "Can you browse all physics events? (y/n) :" : "y",
+        "Can you navigate to next and previous results? (y/n) :" : "y",
+        "Can you see past events? (y/n) :" : "y",
+        "Enter a search, do you get relevant results? (y/n) :" : "y",
+        "Try another search, perhaps with a couple of words, still relevant? (y/n) :" : "y",
+        "Do relevant results display when you... 1/6) ...hit enter in search bar? (y/n) :" : "y",
+        "2/6) ...hit enter in location bar? (y/n) :" : "y",
+        "3/6) ...click search button? (y/n) :" : "y",
+        "4/6) ...click location button? (y/n) :" : "y",
+        "5/6) ...click upcoming button? (y/n) :" : "y",
+        "6/6) ...click past button? (y/n) :" : "y",
+        "Can you filter events by location? (y/n) :" : "y",
+        "Are events ordered by ascending date? (y/n) :" : "y",
+        "Can you give feedback on this page? (y/n) :" : "y",
+        "Please delete your test feedback from the Google Sheet, so that it isn't reviewed: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308" : "",
+        "Does a footer give you access to Terms & Conditions and display IOP charity status? (y/n) :" : "y"
     },
 
     "API":
     {
-        "Does the API work? (y/n) :" : "y"
+        "Does the API work as described in this doc?: https://github.com/amphio/IOP-events/blob/master/docs/Events-API.md (y/n) :" : "y"
     }
 }
 
