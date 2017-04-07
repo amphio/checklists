@@ -28,7 +28,7 @@
         "If possible resize the window, and switch device orientation. Does page respond correctly? (y/n) :" : "y",
         "Is there a means for you to submit feedback on this page? (y/n) :" : "y",
         "Submit some feedback, does it appear here?: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308 (y/n) :" : "y",
-        "Please delete your test feedback from the Google Sheet, so that it isn't reviewed. :" : "",
+        "Please delete your test feedback from the Google Sheet, so that it isn't reviewed. :" : ""
     },
 
     "Messaging integration":
