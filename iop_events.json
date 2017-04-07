@@ -8,15 +8,16 @@
         "What is the screen resolution of your device:" : ""
     },
     
-    "Flash page test":
+    "Event pages":
     {
-    	"Does index page load and show a list of links? (y/n) :" : "y",
-    	"Can you hit next to reveal more links? (y/n) :" : "y",
-    	"Select a link for a future event, does the event page load in <100ms? (y/n) :" : "y",
-        "Does page load in correct scroll position? (y/n) :" : "y",
+    	"Select a link for a future event, does the event page load quickly and correctly? (y/n) :" : "y",
+        "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
+        "Does a 'This services is in BETA' banner appear? (y/n) :" : "y",
+        "Does the link to the old site work? (y/n) :" : "y",
         "Does event image show? (y/n) :" : "y",
         "Does event location render correctly? (y/n) :" : "y",
         "...how about date and time? (y/n) :" : "y",
+        "... and event tags? (y/n) :" : "y",
         "... and event title? (y/n) :" : "y",
         "... and description? (y/n) :" : "y",
         "Does a map show for future events? (y/n) :" : "y",
@@ -24,10 +25,13 @@
         "Do any html tags – e.g. <br>, &amp; – appear anywhere in the text? (y/n) :" : "n",
         "Do html links in text behave as you'd expect? :" : "y",
         "Is the event title present in the url? (y/n) :" : "y",
-        "If possible resize the window, and switch device orientation. Does page respond correctly? (y/n) :" : "y"
+        "If possible resize the window, and switch device orientation. Does page respond correctly? (y/n) :" : "y",
+        "Is there a means for you to submit feedback on this page? (y/n) :" : "y",
+        "Submit some feedback, does it appear here?: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308 (y/n) :" : "y",
+        "Please delete your test feedback from the Google Sheet, so that it isn't reviewed. :" : "",
     },
 
-    "Integration test":
+    "Messaging integration":
     {
         "Copy a link to a future event page, can you message it on FB messenger? :" : "y",
         "Does the link render beautifully with title image and description? :" : "y",
@@ -37,5 +41,16 @@
         "... and in iMessage? :" : "y",
         "Now try email. Looking good? :" : "y",
         "Slack, the physicists favourite? :" : "y"
+    },
+
+    "Discovery page":
+    {
+        "Does the Discovery page work? (y/n) :" : "y"
+    },
+
+    "API":
+    {
+        "Does the API work? (y/n) :" : "y"
     }
 }
+
