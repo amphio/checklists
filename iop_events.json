@@ -48,7 +48,7 @@
         "Select 'Events' from the top navigaiton bar. Does the Find Physics Events page load correctly? (y/n) :" : "y",
         "Does the navigation bar and BETA baner appear correctly? (y/n) :" : "y",
         "Can you browse all physics events? (y/n) :" : "y",
-        "Can you navigate to next and previous results pages? (y/n) :" : "y",
+        "Scroll to the bottom of the page. Can you navigate to next and previous results pages? (y/n) :" : "y",
         "Can you see past events? (y/n) :" : "y",
         "Enter a search, do you get relevant results? (y/n) :" : "y",
         "Try another search, perhaps with a couple of words, still relevant? (y/n) :" : "y",
