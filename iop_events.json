@@ -62,7 +62,7 @@
         "Are events ordered by ascending date? (y/n) :" : "y",
         "Can you give feedback on this page? (y/n) :" : "y",
         "Please delete your test feedback from the Google Sheet, so that it isn't reviewed: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308" : "",
-        "Does a footer give you access to Terms & Conditions and display IOP charity status? (y/n) :" : "y"
+        "Look at the bottom of a page. Does a footer give you access to Terms & Conditions and underneath that display IOP charity status? (y/n) :" : "y"
     },
 
     "API":
