@@ -1,0 +1,73 @@
+ {
+    "Context":
+    {
+        "Hello! What is your name? :" : "",
+        "What device are you using? (iPad Air, Samsung Galaxy Tab) :" : "",
+        "What OS version are you using? (iOS 10.2, Android Marshmallow) :" : ""
+    },
+    
+    "On-boarding":
+    {
+    	"Install the app from scratch. Do the on-boarding screens diplay correctly? (y/n) :" : "y",
+    	"Does the Get Started button offer you a free sample score? (y/n) :" : "y",
+    	"Select a sample score, and press Open My Library...does it download to your library? (y/n) :" : "y",
+        "Can you open the chosen sample score? (y/n) :" : "y" 
+    },
+
+    "Score viewer":
+    {
+        "Navigate to 'My Library', and open the sample score, if you haven't opened it. Does the score on-boarding display? (y/n) :" : "y",
+        "Do all the videos play as you page through them? (y/n) :" : "y",
+        "Does sound play? (y/n) :" : "n",
+        "Does tapping outside the on-boarding panel dismiss it? (y/n) :" : "y",
+        "Rotate the device. Does the score respond correctly? (y/n) :" : "y",
+        "Does swiping left and right page forward and backward through the score? (y/n) :" : "y",
+        "Does tapping on the edges of the score page forward and backward through the score? (y/n) :" : "y",
+        "Does tilting the device page forward and backward through the score? (y/n) :" : "n",
+        "Does swiping the progress indicator and the bottom of the page move forward and backward through the score? (y/n) :"  : "y",
+        "Does tapping on the score show and hide the top menu bar? (y/n) :" : "y",
+        "Tap the book icon. Does the book menu display? (y/n) :" : "y",
+        "Does tapping the various book sections take you to the correct page? (y/n) :" : "y",
+        "Tap the fingerings icon. Does the fingerings menu display? (y/n) :" : "y",
+        "Does selecting different fingering authors change the little numbers displayed on the score? (y/n) :" : "y",
+        "Does selecting 'No fingerings' display fingerings on the score? (y/n) :" : "n",
+        "Ignore Annotations for now. Tap the settings icon, does the settings menu display? (y/n) :" : "y",
+        "Does selecting sepia background change the background colour? (y/n) :" : "y",
+        "Does selecting Printed Layout change the arrangement of the staves? (y/n) :" : "y",
+        "Does selecting Printed Layout give you options for adjusting the parameters of the score? (y/n) :" : "n",
+        "Does selecting Custom Layout give you options for adjusting the parameters of the score? (y/n) :" : "y",
+        "Can you adjust stave spacing? (y/n) :" : "y",
+        "Can you specify that movements appear on a new page? (y/n) :" : "y",
+        "Tap the print button. Are you given a warning about how long printing may take? (y/n) :" : "y",
+        "Does the print menu eventually show? (y/n) :" : "y",
+        "Can you print the score? (y/n) :" : "y",
+        "Tap the metronome icon. Can you start a metronome at the tempo specified on the score? (y/n) :" : "y",
+        "Can you change the tempo of the metronome? (y/n) :" : "y",
+        "Can you select a tempo from the list of terms below the metronome? (y/n) :" : "y:",
+        "Tap the recording icon. Can you start a new recording, giving it a title? (y/n) :" : "y",
+        "Does the app ask for permission to use the microphone? (y/n) :" : "y",
+        "Record something. Can you play it back after you've finished? (y/n) :" : "y",
+        "Can you change the playback speed of the recording? (y/n) :" : "y",
+        "Can you loop playback? (y/n) :" : "y",
+        "Can you play the recording backwards? (y/n) :" : "n",
+        "Tap the movements button. Can you jump to different movements? (y/n) :" : "y",
+        "Can you jump do a different bar number? (y/n) :" :"y"
+    },
+
+    "Annotations":
+    {
+    	"Tap and hold one of the staves. Are you prompted to create a new annotation layer? (y/n) :" : "y",
+        "Can you create a new layer without giving it a title? (y/n) :" : "n",
+        "Give your layer a title. Does annotation mode load? (y/n) :" : "y",
+        "Can you select and draw with each of the pens? (y/n) :" : "y",
+        "Can you select and draw with different colours? (y/n) :" : "y",
+        "Select the text function. Can you add text to the stave? (y/n) :" : "y",
+        "Can you drag and drop various symbols onto the stave? (y/n) :" : "y",
+        "Can you select one of your annotations and delete it? (y/n) :" : "y",
+        "Press 'Done'. Are you annotations visible on the score? (y/n) :" : "y",
+        "Press the annotations icon in the top right of the screen. Can you see your annotation layer? (y/n) :" : "y",
+        "Press the share icon beside your annotation layer. Can you share the layer using one of the sharing options? (y/n) :" : "y",
+        
+    },
+
+}
