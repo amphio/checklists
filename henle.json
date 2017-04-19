@@ -114,7 +114,7 @@
         "Does your credits balance update to reflect the amount you've just spent? (y/n) :" : "y",
         "Is the work now available in your library? (y/n) :" : "y",
         "Go back to the store front, and choose one of the featured bundles listed below the lozenges. Can you purchase one of these bundles, adding more credits if necessary? (y/n) :" : "y",
-        "Are all the works in the bundle now downloading in your library? (y/n) :" : "y",
+        "Are all the works in the bundle now downloading in your library? (y/n) :" : "y"
     },
 
     "Library":
@@ -125,7 +125,7 @@
         "Can you tap the i button beside a work to view more information about it? (y/n) :" : "y",
         "Can you delete an item from your local storage? (y/n) :" : "y",
         "Does tapping the work open it? (y/n) :" : "y",
-        "Can you use the blue arrows to move between the scores in a bundle? (y/n) :" : "y",
+        "Can you use the blue arrows to move between the scores in a bundle? (y/n) :" : "y"
     }
 
 
