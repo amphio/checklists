@@ -112,9 +112,21 @@
         "Purchase some credits (sign into a sandbox test account if necessary). Does your credits balance update? (y/n) :" : "y",
         "Are you able to purchase the work now? (y/n) :" : "y",
         "Does your credits balance update to reflect the amount you've just spent? (y/n) :" : "y",
-        "Is the work now available in your library? (y/n) :" : "y"
-    }
+        "Is the work now available in your library? (y/n) :" : "y",
+        "Go back to the store front, and choose one of the featured bundles listed below the lozenges. Can you purchase one of these bundles, adding more credits if necessary? (y/n) :" : "y",
+        "Are all the works in the bundle now downloading in your library? (y/n) :" : "y",
+    },
 
+    "Library":
+    {
+        "Navigate to 'My Library'. Do you see a list of the works you have purchased? (y/n) :" : "y",
+        "Can you sort the library by composer and instrumentation? (y/n) :" : "y",
+        "Can you filter the library by composer, instrumentation, period and difficulty? (y/n) :" : "y",
+        "Can you tap the i button beside a work to view more information about it? (y/n) :" : "y",
+        "Can you delete an item from your local storage? (y/n) :" : "y",
+        "Does tapping the work open it? (y/n) :" : "y",
+        "Can you use the blue arrows to move between the scores in a bundle? (y/n) :" : "y",
+    }
 
 
 }
