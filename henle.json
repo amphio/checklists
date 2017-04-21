@@ -126,6 +126,17 @@
         "Can you delete an item from your local storage? (y/n) :" : "y",
         "Does tapping the work open it? (y/n) :" : "y",
         "Can you use the blue arrows to move between the scores in a bundle? (y/n) :" : "y"
+    },
+
+    "Server code deploy":
+    {
+        "Congratulations! You've deployed some server code. Now make sure you haven't broken everything. Open the app. Does the store load? (y/n) :" : "y",
+        "Can you sign in to your account? (y/n) :" : "y",
+        "Go to the store, and try search for something. DO the search results display? (y/n) :" : "y",
+        "Now try to purchase an item. Can you make the purchase? (y/n) :" : "y",
+        "Does the item download to your library? (y/n) :" : "y",
+        "Can you download other previously purchased scores? (y/n) :" : "y",
+        "Can you purchase more credits? (y/n) :" : "y"
     }
 
 
