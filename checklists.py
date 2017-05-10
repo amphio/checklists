@@ -18,7 +18,7 @@ def load_libray():
 		#Load file
 		with open(checklists_filepath) as test_file:    
 			uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
-		return checklists_filepath, uncompleted_checklists
+		return checklists_filename, checklists_filepath, uncompleted_checklists
 	except Exception as e:
 		raise e
 		print ("The file %s was not found in the current directory. \nPlease try again..." % (checklists_filepath))
@@ -107,10 +107,10 @@ def dump_to_file(final_results):
 	#Add prefix result
 	if final_results["Results"]["Test passed"] == True:
 		time_now = time.time()
-		ouput_filepath = "results/" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_PASSED.json"
+		ouput_filepath = "results/" + checklists_filename + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_PASSED.json"
 	else:
 		time_now = time.time()
-		ouput_filepath = "results/" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_FAILED.json"
+		ouput_filepath = "results/" + checklists_filename + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_FAILED.json"
 	with open(ouput_filepath,  'w') as fp:
 		json.dump(final_results, fp)
 	return ouput_filepath
@@ -145,7 +145,7 @@ print ("""\n\n\n
 print ("WELCOME TO CHECKLISTS...")
 
 #Load library
-checklists_filepath, uncompleted_checklists = load_libray()
+checklists_filename, checklists_filepath, uncompleted_checklists = load_libray()
 
 #Show checklists in selected library
 print ('\nThe following checklists are available in %s: ' % checklists_filepath)

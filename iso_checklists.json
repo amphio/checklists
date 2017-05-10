@@ -37,6 +37,8 @@
     	"Does [tab] and [enter] navigate between fields? (y/n) :" : "y",
     	"Do auto-complete suggestions appear when you type? (y/n) :" : "n",
         "Can you proceed to next step without entering valid date? (y/n) :" : "n",
+        "Can you add files without a manifest generation script? (y/n) :" : "n",
+        "Can you download the manifest generation script from the link provided? (y/n) :" : "y",
     	"Can you add audio or video files? (timecoded .mov and .wav supported. Examples available here: TPNAS_01/IndianapolisSymphonyOrch/Production/Test_Content/Audio/Timecoded_examples (y/n) :" : "y",
         "Can you remove files? (y/n) :" : "y",
         "Can you enter Capture device? (y/n) :" : "y",
@@ -71,6 +73,7 @@
     {
         "Can you navigate to Library? (y/n) :" : "y",
         "Can you search to get expected results? (y/n) :" : "y",
+        "Can you press the help icon in the search bar to recieve assistance? (y/n) :" : "y",
         "Type the first three letters of an existing entry in the 'Composers' column. Do relevant auto-complete suggestions appear? (y/n) :" : "y",
         "Do relevant columns appear leftmost? (y/n) :" : "y",
         "Does selecting columns define grouping? (y/n) :" : "y",
@@ -83,6 +86,7 @@
         "Select the home logo. Does the entire library show? (y/n) :" : "y",
         "Search for nothing. Does nothing show in results? (y/n) :" : "n",
         "Search for something. Are results appropriate? (y/n) :" : "y",
+        "Does searching for multiple terms separated by 'AND' show only results that match all the terms? (y/n) :" : "y",
         "Select some assets and download them. Do you get what you expect? (y/n) :" : "y"
     },
 
@@ -108,7 +112,7 @@
         "Are you able to download them? (y/n) :" : "y",
         "Are all .wav audio files available as mp3? (y/n) :" : "y",
         "Are all .mov video files available as 1080p h.264? (y/n) :" : "y",
-        "Can you download processed media? (y/n) :" : "y".
+        "Can you download processed media? (y/n) :" : "y",
         "Do downloaded perfromance clips, match the excerpts that you specified in concert upload? (y/n) :" : "y"
     }
 }
