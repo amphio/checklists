@@ -97,7 +97,7 @@
         "Does the 'copy' button for the event edit url work? (y/n) :" : "y",
         "Can you view your live event page? (y/n) :" : "y",
         "Can you search for your event page in the 'Events' listings? (y/n) :" : "y",
-        "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y",
+        "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y"
 
     },
 
