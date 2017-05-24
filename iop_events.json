@@ -102,7 +102,7 @@
 
     "Security":
     {
-        "I'd like you to imagine that you're enterprising hacker unmatched cunning, hell-bent on compromising physics events for your own advantages. Are you willing? (y/n) :" : "y",
+        "You are an enterprising hacker of unmatched cunning, hell-bent on compromising physics events for your own advantages. Are you willing? (y/n) :" : "y",
         "Navigate to the creation page. Does it load correctly? (y/n) :" : "y",
         "Paste this dummy xss attack into the description field and then preview your event, does a pop-up alert appear with '1337'?: javascript:/*</style></script>/**//<script>1/(alert(1337))//</script>" : "n",
         "Paste that attack into every field that you can and submit your event, are you able to submit it?" : "y",
