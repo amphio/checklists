@@ -98,7 +98,18 @@
         "Can you view your live event page? (y/n) :" : "y",
         "Can you search for your event page in the 'Events' listings? (y/n) :" : "y",
         "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y"
+    },
 
+    "Security":
+    {
+        "You are an enterprising hacker of unmatched cunning, hell-bent on compromising physics events for your own advantages. Are you willing? (y/n) :" : "y",
+        "Navigate to the creation page. Does it load correctly? (y/n) :" : "y",
+        "Paste this dummy xss attack into the description field and then preview your event, does a pop-up alert appear with '1337'?: javascript:/*</style></script>/**//<script>1/(alert(1337))//</script>" : "n",
+        "Paste that attack into every field that you can and submit your event, are you able to submit it?" : "y",
+        "Navigate to your live event page, does a pop-up alert appear with '1337'?" : "n",
+        "Does your event page load as you'd expect?" : "y",
+        "What about the edit event page, does that load correctly?" : "y",
+        "If your feeling adventurous, write a curl command to hit this url with a http POST request containing an xss attack. Are you successful?: http://iop-events-develop.eu-west-2.elasticbeanstalk.com/create/submit/" : "n"
     },
 
     "API":
