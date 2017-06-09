@@ -62,7 +62,7 @@
         "5/6) ...click upcoming button? (y/n) :" : "y",
         "6/6) ...click past button? (y/n) :" : "y",
         "Can you filter events by location? (y/n) :" : "y",
-        "Are events ordered by present -> future date? (y/n) :" : "y",
+        "In upcoming events, are events ordered by present -> future date? (y/n) :" : "y",
         "Can you give feedback on this page? (y/n) :" : "y",
         "Does the feedback typeform have the correct URL? (y/n) :" : "y",
         "If you left feedback, please delete it from the typeform, so that it isn't reviewed: " : "",
