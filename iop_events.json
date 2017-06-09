@@ -11,6 +11,7 @@
     "Event pages":
     {
     	"Select a link for a future event that isn't an IOP conference, does the event page load quickly and correctly? (y/n) :" : "y",
+        "Is this page hosted on events.iop.org? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This services is in BETA' banner appear? (y/n) :" : "y",
         "Does the link to the old site work? (y/n) :" : "y",
@@ -27,8 +28,9 @@
         "Is the event title present in the url? (y/n) :" : "y",
         "If possible resize the window, and switch device orientation. Does page respond correctly? (y/n) :" : "y",
         "Is there a means for you to submit feedback on this page? (y/n) :" : "y",
-        "Submit some feedback, does it appear here?: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308 (y/n) :" : "y",
-        "Please delete your test feedback from the Google Sheet, so that it isn't reviewed. :" : ""
+        "Does the feedback typeform have the correct URL? (y/n) :" : "y",
+        "Submit some feedback, does it appear on the typeform? (y/n) :" : "y",
+        "Please delete your test feedback from the  typeform, so that it isn't reviewed. :" : ""
     },
 
     "Messaging integration":
@@ -46,6 +48,7 @@
     "Discovery page":
     {
         "Select 'Events' from the top navigation bar. Does the Find Physics Events page load correctly? (y/n) :" : "y",
+        "Is this page hosted on events.iop.org? (y/n) :" : "y",
         "Does the navigation bar and BETA baner appear correctly? (y/n) :" : "y",
         "Can you browse all physics events? (y/n) :" : "y",
         "Scroll to the bottom of the page. Can you navigate to next and previous results pages? (y/n) :" : "y",
@@ -61,13 +64,15 @@
         "Can you filter events by location? (y/n) :" : "y",
         "Are events ordered by present -> future date? (y/n) :" : "y",
         "Can you give feedback on this page? (y/n) :" : "y",
-        "If you left feedback, please delete it from the Google Sheet, so that it isn't reviewed: https://docs.google.com/spreadsheets/d/1Uu5Rkv6TRcT9KrtPn3O7u-FXjlq-RNflOiYCBQOrJUo/edit#gid=1661954308" : "",
+        "Does the feedback typeform have the correct URL? (y/n) :" : "y",
+        "If you left feedback, please delete it from the typeform, so that it isn't reviewed: " : "",
         "Look at the bottom of a page. Does a footer give you access to Terms & Conditions and underneath that display IOP charity status? (y/n) :" : "y"
     },
 
     "Event creation":
     {
         "Navigate to the creation page. Does the page load correctly? (y/n) :" : "y",
+        "Is this page hosted on events.iop.org? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This service is in BETA' banner appear? (y/n) :" : "y",
         "On the creation page, below the 'Create an event' title, does the 'Learn More…' link open the event creation guide in a new tab? (y/n) :" : "y",
