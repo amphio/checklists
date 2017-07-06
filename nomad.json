@@ -1,0 +1,58 @@
+ {
+    "Context":
+    {
+        "Hello! What is your name? :" : "",
+        "What iPhone are you using? (SE, 6, 7 Plus) :" : "",
+        "Which version of iOS are you using? (9.0, 11.1) :" : "",
+        "What is the screen resolution of your device:" : ""
+    },
+
+    "On-boarding":
+    {
+        "Launch the app from your home screen. Are you shown the splash screen? (y/n) :" : "y",
+        "Once the splash screen disappears, are you shown the signup screen? (y/n) :" : "y",
+        "Is there text present describing the app with a call-to-action? (y/n) :" : "y",
+        "Can you view the Terms of Service and Privacy Policy? (y/n) :" : "y",
+        "Can you sign up with facebook? (y/n) :" : "y",
+        "Are you jumped out to facebook to give permission for Nomad to access your profile? (y/n) :" :"y"
+    },
+
+    "Profile view":
+    {
+        "Once you have completed signing up, are you taken to your profile? (y/n) :" : "y",
+        "Are your name and picture from facebook displayed? (y/n) :" : "y",
+        "Can you create a new trip? (y/n) :" : "y",
+        "When creating a new trip, can you enter a name for it? (y/n) :" : "y",
+        "Is the trip succesfully created? (y/n):" : "y",
+        "Can you see it in your Trips View? (y/n) :" : "y" 
+    },
+
+    "Settings":
+    {
+        "Tap the settings icon on the the trip view screen. Are you taken to the settings page? (y/n) :" : "y",
+        "Can you change your username? (y/n) :" : "y",
+        "Can you change the email associated with your account? (y/n) :" : "y",
+        "Can you change your password? (y/n) :" : "y",
+        "Can you get help? (y/n) :" : "y",        
+        "Can you view the Ts&Cs from here? (y/n) :" : "y",
+        "Can you Log Out form here? (y/n) :" : "y",
+        "can you delete your account? (y/n) :" : "y"
+    },
+
+    "Add to trip":
+    {
+        "Go to Safari, and find a nice page with some info about a place you'd like visit. Copy the URL, and return to Nomad. Do you see the 'Save Places' prompt button? (y/n) :" : "y",
+        "Tap the button. Are you shown some images from that URL? (y/n) :" : "y",
+        "Are there any placeholders? (y/n) :" : "n",
+        "Tap one of the images. Are you brought to the upload info view screen? (y/n) :" : "y",
+        "Sarch for a location. Are the results populated? (y/n) :" : "y",
+        "Can you add notes to your entry? (y/n) :" : "y",
+        "Press Add to Trip. Are you shown a list of your trips? (y/n) :" : "y",
+        "Can you add the entry to your chose trip? (y/n) :" : "y"
+    },
+
+    "Trip view":
+    {
+        "trip view Qs go here (y/n) :" : "y"
+    }
+}

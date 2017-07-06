@@ -137,6 +137,42 @@
         "Does the item download to your library? (y/n) :" : "y",
         "Can you download other previously purchased scores? (y/n) :" : "y",
         "Can you purchase more credits? (y/n) :" : "y"
+    },
+
+    "Tools - ScoreProducer":
+    {
+        "Make sure you have pulled latest changes from Henle repo. Now, build ScoreProducer from Xcode. Tap open PDF, and select the test directory, then the PDF. Does the score load? (y/n) :" : "y",
+        "Are there red and blue lines on the score? (y/n) :" : "y",
+        "Can you delete the lines? (y/n) :" : "y",
+        "Can you move the lines? (y/n) :" : "y",
+        "Can you draw new lines? (y/n) :" : "y",
+        "Can you switch between pages? (y/n) :" : "y",
+        "Can you add some metadata? (y/n) :" : "y",
+        "Go to stave markup, and click process staves. Do the staves load? (y/n) :" : "y",
+        "Does Identify FIngering identify the fingerings? (y/n) :" : "y",
+        "Can you add, move and resize a mask? (y/n) :" : "y",
+        "On a new layer, can you add a new fingering? (y/n) :" : "y",
+        "Can you add a new hairpin to a new layer? (y/n) :" : "y",
+        "Can you add a new slur? (y/n) :" : "y",
+        "Go back to the default layer, can you add an anchor and move it around? (y/n) :" : "y",
+        "Can you validate the staves? (y/n)" : "y",
+        "Tap stave spacing. Can you move the staves around? (y/n)" : "y",
+        "Go to Anchor Linking. Can you add an anchor link? (y/n)" : "y",
+        "Tap export, are you shown a preview of the score? (y/n)" : "y",
+        "Can you export the score to your selected directory? (y/n)" : "y",
+        "Check the export – is there a preview image in 3 sizes? (y/n)" : "y",
+        "Are there stave images? (y/n)" : "y",
+        "Is there a score-metadata.json (y/n)" : "y",
+    },
+
+    "Tools - ScoreUploader":
+    {
+        "Can you add a ScoreProducer directory? (y/n)" : "y",
+        "Can you choose a text directory? (y/n)" : "y",
+        "Can you choose a work variant? (y/n)" : "y",
+        "Can you choose a part? (y/n)" : "y",
+        "Can you upload? (y/n)" : "y",
+        "Check S3 bucket – are the files you uploaded present? (y/n)" : "y",
     }
 
 
