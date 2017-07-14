@@ -72,7 +72,9 @@
 
     "Event creation":
     {
-        "Navigate to the creation page. Does the page load correctly? (y/n) :" : "y",
+        "Navigate to the event creation login page. Does the page load correctly? (y/n) :" : "y",
+        "Are you able to sign up/login? (y/n) :" : "y",
+        "Does logging in take you to the event creation page? (y/n) :" : "y",
         "Is this page hosted on events.iop.org? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This service is in BETA' banner appear? (y/n) :" : "y",
@@ -103,7 +105,11 @@
         "Does the 'copy' button for the event edit url work? (y/n) :" : "y",
         "Can you view your live event page? (y/n) :" : "y",
         "Can you search for your event page in the 'Events' listings? (y/n) :" : "y",
-        "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y"
+        "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y",
+        "Can you navigate to the 'My Events' tab?(y/n)? :" : "y",
+        "Can you see your published event? (y/n)? :" : "y",
+        "Does selecting the 'Edit' button take you back to editing that event? (y/n)? :" : "y",
+        "Make a change to your event and save. Does this change appear on the published event? (y/n)? :" : "y"
     },
 
     "Security":
