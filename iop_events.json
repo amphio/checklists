@@ -72,7 +72,7 @@
 
     "Login":
     {
-		"On events.iop.org, select the 'Login' button on the top right hand corner, does it take you to the login page? (If you are already logged in, please log out…) (y/n) :" : "y",
+		"On the events home page, select the 'Login' button on the top right hand corner, does it take you to the login page? (If you are already logged in, please log out…) (y/n) :" : "y",
 		"Are you able to login? (y/n) :" : "y", 
 		"On the top right corner of the page, do you now see you are logged in as a BETA user? (y/n) :" : "y", 
 		"Navigate to the 'Create BETA tab, are you taken to the login screen? (y/n) :" : "n",
