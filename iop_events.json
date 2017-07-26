@@ -70,12 +70,25 @@
         "Look at the bottom of a page. Does a footer give you access to Terms & Conditions and underneath that display IOP charity status? (y/n) :" : "y"
     },
 
+    "Login":
+    {
+		"On events.iop.org, select the 'Login' button on the top right hand corner, does it take you to the login page? (If you are already logged in, please log out…) (y/n) :" : "y",
+		"Are you able to login? (y/n) :" : "y", 
+		"On the top right corner of the page, do you now see you are logged in as a BETA user? (y/n) :" : "y", 
+		"Navigate to the 'Create BETA tab, are you taken to the login screen? (y/n) :" : "n",
+		"Navigate to the 'My Events BETA tab. are you taken to the login screen? (y/n) :" : "n", 
+		"Select the Beta user login menu on the top right, can you now dimiss the window with the x? (y/n) :" : "y", 
+		"Can you logout? (y/n) :" : "y",
+		"Navigate to the 'Create BETA' tab, are you taken to a login screen? (y/n) :" : "y",
+		"Can you login? (y/n) :" : "y", 
+		"Now logout again. Navigate to the 'My Events BETA, are you taken to a login screen? (y/n) :" : "y"
+
+
+    },
+
     "Event creation":
     {
-        "Navigate to the event creation login page. Does the page load correctly? (y/n) :" : "y",
-        "Are you able to sign up/login? (y/n) :" : "y",
-        "Does logging in take you to the event creation page? (y/n) :" : "y",
-        "Is this page hosted on events.iop.org? (y/n) :" : "y",
+        "Navigate to the 'Create BETA' tab and login in necessary. Does the page load correctly? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This service is in BETA' banner appear? (y/n) :" : "y",
         "On the creation page, below the 'Create an event' title, does the 'Learn More…' link open the event creation guide in a new tab? (y/n) :" : "y",
@@ -83,11 +96,10 @@
         "Does it have a table of contents with functioning hyperlinks? (y/n) :" : "y",
         "Do the gifs and images fit the page without cropping? (y/n) :" : "y",
         "Return to the event creation page. Can you give your event a title? (y/n) :" : "y",
-        "Give your event a start time of 25:30 and save, do you receive a pop-up error? (y/n) :" : "y",
-        "Give your event a valid start time and save, do you get an error? (y/n) :" : "n",
-        "Can you give your event an end time? (y/n) :" : "y",
-        "Give your event an end date of 32nd February and save, do you receive a pop-up error? (y/n) :" : "y",
-        "Can you give your event a valid end date? (y/n) :" : "y",
+        "Enter a valid start date and start time, can you save? (y/n) :" : "y",
+        "Give your event a start time of 25:30 then save, do you receive an error? (y/n) :" : "y",
+        "Give your event a valid start time and an end date of 32nd February, then save, do you get an error? (y/n) :" : "y",
+        "Give your event valid date and time and save, do you get an error? (y/n) :" : "n",
         "Can you enter an address? (y/n) :" : "y",
         "Hit 'Reset Location'. Does this clear the location fields? (y/n) :" : "y",
         "Can you make your event an online event (y/n) :" : "y",
@@ -95,22 +107,20 @@
         "Go back to event creation. Does the 'not sure what to write' link work? (y/n) :" : "y",
         "Enter an event description using all available formatting features. Do they all work as expected in the entry box? (y/n) :" : "y",
         "Can you add a cover image? (y/n) :" : "y",
-        "Can you choose a privacy setting? (y/n) :" : "y",
         "Can you save your event? (y/n) :" : "y",
         "When saving your event, do you see 'Event Status' appear at the top of the page? (y/n) :" : "y",
         "Can you preview your event? (y/n) :" : "y",
         "In the preview page does the description formatting match what was in the creation form? (y/n) :" : "y",
         "Try to publish your event. If you left the start date blank do you get an error? (y/n) :" : "y",
-        "Enter a start date and publish your event. Are you taken to a page which gives you your event edit url? (y/n) :" : "y",
-        "Does the 'copy' button for the event edit url work? (y/n) :" : "y",
-        "Can you view your live event page? (y/n) :" : "y",
-        "Can you search for your event page in the 'Events' listings? (y/n) :" : "y",
-        "Navigate to your event edit url you made a note of earlier. Does this allow you to edit your event? (y/n)? :" : "y",
+        "Enter a start date and publish your event. Are you taken to a page which gives you your share event url? (y/n) :" : "y",
+        "Does the 'copy' button for the share event url work? (y/n) :" : "y",
+        "Open a new tab and paste the event url. Can you view your live event page? (y/n) :" : "y",
         "Can you navigate to the 'My Events' tab?(y/n)? :" : "y",
-        "Can you see your published event? (y/n)? :" : "y",
+        "Can you see your published event listed? :" : "y",
         "Does selecting the 'Edit' button take you back to editing that event? (y/n)? :" : "y",
-        "Make a change to your event and save. Does this change appear on the published event? (y/n)? :" : "y"
-    },
+        "Make a change to your event and save. Does this change appear on the published event? (y/n)? :" : "y",
+        "Can you search for and find your event page in the 'Events' listings? (y/n) :" : "y"
+	},
 
     "Security":
     {
