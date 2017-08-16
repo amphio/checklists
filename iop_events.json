@@ -8,9 +8,29 @@
         "What is the screen resolution of your device:" : ""
     },
 
+    "Verification":
+    {
+        "On the 'Are you an IOP member?' page, does selecting 'No' take you to… (y/n) :" : "y",
+        "Navigate back and select 'Yes', does this take you to a page to enter your membership email or username? (y/n) :" : "y",
+        "Leave the input field blank and hit submit. Are you take to a 'Housten we have a problem' page? (y/n) :" : "y",
+        "Navigate back, and now enter 'notreal' into the input field and hit submit. Are you taken to the 'There’s a black hole out there' page? (y/n) :" : "y",
+        "Select 'Become a member' – are you taken to the 'Join the IOP' part of the IOP website? (y/n) :" : "y",
+        "Navigate back to the previous page and select 'Wrong account details?' Are you taken back to the page to enter your membership email or username? (y/n) :" : "y",
+        "This time select 'Forgotten your membership details?' Are you taken to the page to send a recovery email? (y/n) :" : "y",
+        "Enter a recovery email, does it take you to the 'Request Received' page? (y/n) :" : "y",
+        "Navigate back and now put in a valid membership email or username, are you taken to the 'Check your email' page? (y/n) :" : "y",
+        "Does selecting 'Don't have access to this email account'take you to the 'Send Recovery Email' page? :" : "y",
+        "Leave the input field blank and hit 'Send Recovery Email'. Do you get the 'Housten we have a problem' page? :" : "y",
+        "Navigate back and this time enter an email address, does this send you to the 'Request received' page? :" : "y",
+        "Does clicking on the 'Back to the homepage' button do what it promises? (y/n) :" : "y"
+        "Check you email, has a 'Please verify your email' appeared in your inbox? (y/n) :" "y",
+        "Open this email and click on the link. Does the link take you to a page to a 'Membership Confirmed' page? (y/n) :" : "y"
+
+    },
+
     "Event pages":
     {
-    	"Select a link for a future event that isn't an IOP conference, does the event page load quickly and correctly? (y/n) :" : "y",
+        "Select a link for a future event that isn't an IOP conference, does the event page load quickly and correctly? (y/n) :" : "y",
         "Is this page hosted on events.iop.org? (y/n) :" : "y",
         "Does a navigation bar allow you to navigate to other IOP services? (y/n) :" : "y",
         "Does a 'This services is in BETA' banner appear? (y/n) :" : "y",
@@ -72,16 +92,16 @@
 
     "Login":
     {
-		"On the events home page, select the 'Login' button on the top right hand corner, does it take you to the login page? (If you are already logged in, please log out…) (y/n) :" : "y",
-		"Are you able to login? (y/n) :" : "y", 
-		"On the top right corner of the page, do you now see you are logged in as a BETA user? (y/n) :" : "y", 
-		"Navigate to the 'Create BETA tab, are you taken to the login screen? (y/n) :" : "n",
-		"Navigate to the 'My Events BETA tab. are you taken to the login screen? (y/n) :" : "n", 
-		"Select the Beta user login menu on the top right, can you now dimiss the window with the x? (y/n) :" : "y", 
-		"Can you logout? (y/n) :" : "y",
-		"Navigate to the 'Create BETA' tab, are you taken to a login screen? (y/n) :" : "y",
-		"Can you login? (y/n) :" : "y", 
-		"Now logout again. Navigate to the 'My Events BETA, are you taken to a login screen? (y/n) :" : "y"
+        "On the events home page, select the 'Login' button on the top right hand corner, does it take you to the login page? (If you are already logged in, please log out…) (y/n) :" : "y",
+        "Are you able to login? (y/n) :" : "y", 
+        "On the top right corner of the page, do you now see you are logged in as a BETA user? (y/n) :" : "y", 
+        "Navigate to the 'Create BETA tab, are you taken to the login screen? (y/n) :" : "n",
+        "Navigate to the 'My Events BETA tab. are you taken to the login screen? (y/n) :" : "n", 
+        "Select the Beta user login menu on the top right, can you now dimiss the window with the x? (y/n) :" : "y", 
+        "Can you logout? (y/n) :" : "y",
+        "Navigate to the 'Create BETA' tab, are you taken to a login screen? (y/n) :" : "y",
+        "Can you login? (y/n) :" : "y", 
+        "Now logout again. Navigate to the 'My Events BETA, are you taken to a login screen? (y/n) :" : "y"
 
 
     },
@@ -120,7 +140,7 @@
         "Does selecting the 'Edit' button take you back to editing that event? (y/n)? :" : "y",
         "Make a change to your event and save. Does this change appear on the published event? (y/n)? :" : "y",
         "Can you search for and find your event page in the 'Events' listings? (y/n) :" : "y"
-	},
+    },
 
     "Security":
     {
