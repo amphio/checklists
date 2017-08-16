@@ -11,14 +11,13 @@ from pprint import pprint
 
 def load_libray():
 	try:
-		print ("\nTo get started, please enter the filename of your checklist library (e.g. iso_checklists)...")
-		checklists_filename = raw_input("(filename) > ")
-		#Filepath to checkslists json
-		checklists_filepath = checklists_filename + ".json"
+		print ("\nTo get started, please enter the filepath of your checklist library (e.g. /Users/alanmartyn/Desktop/iop_events.json)...")
+		checklists_filepath = raw_input("(filepath) > ")
+		checklists_filepath = checklists_filepath.replace(" ", "")
 		#Load file
-		with open(checklists_filepath) as test_file:    
-			uncompleted_checklists = json.load(test_file, object_pairs_hook=OrderedDict)
-		return checklists_filename, checklists_filepath, uncompleted_checklists
+		with open(checklists_filepath) as checklist_file:    
+			uncompleted_checklists = json.load(checklist_file, object_pairs_hook=OrderedDict)
+		return checklists_filepath, uncompleted_checklists
 	except Exception as e:
 		raise e
 		print ("The file %s was not found in the current directory. \nPlease try again..." % (checklists_filepath))
@@ -107,10 +106,10 @@ def dump_to_file(final_results):
 	#Add prefix result
 	if final_results["Results"]["Test passed"] == True:
 		time_now = time.time()
-		ouput_filepath = "results/" + checklists_filename + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_PASSED.json"
+		ouput_filepath = checklists_filepath.replace(".json", "", 1) + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_PASSED.json"
 	else:
 		time_now = time.time()
-		ouput_filepath = "results/" + checklists_filename + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_FAILED.json"
+		ouput_filepath = checklists_filepath.replace(".json", "", 1) + "_" + datetime.datetime.fromtimestamp(time_now).strftime('%Y-%m-%d_%Hh%Mm%Ss') + "_FAILED.json"
 	with open(ouput_filepath,  'w') as fp:
 		json.dump(final_results, fp)
 	return ouput_filepath
@@ -145,7 +144,7 @@ print ("""\n\n\n
 print ("WELCOME TO CHECKLISTS...")
 
 #Load library
-checklists_filename, checklists_filepath, uncompleted_checklists = load_libray()
+checklists_filepath, uncompleted_checklists = load_libray()
 
 #Show checklists in selected library
 print ('\nThe following checklists are available in %s: ' % checklists_filepath)
