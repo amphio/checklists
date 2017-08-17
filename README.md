@@ -6,7 +6,6 @@ A simple tool to get things done right.
 2. cd to checklists/
 3. python checklists.py
 4. RUN SOME CHECKLISTS!
-5. Push the results to git
 
 ### To create your own checklist
 * Copy the example_checklist.json file into your respective repository

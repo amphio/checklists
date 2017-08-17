@@ -1,4 +1,8 @@
+from __future__ import absolute_import
+from __future__ import division
 from __future__ import print_function
+
+# Standard library
 import sys
 import time
 import json
@@ -172,7 +176,6 @@ final_results = OrderedDict()
 final_results["Results"] = checklist_results
 final_results["actual_responses"] = completed_checklists["actual_responses"]
 
-#Save test results
-ouput_filepath = dump_to_file(final_results)
-print ("\nTest results saved to: " + ouput_filepath)
-print ("Please commit these results to GitHub...")
+##Save test results
+#ouput_filepath = dump_to_file(final_results)
+#print ("\nTest results saved to: " + ouput_filepath)
