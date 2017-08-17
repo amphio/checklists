@@ -2,10 +2,11 @@
 A simple tool to get things done right.
 
 ### To run some checklists
-1. Launch Terminal
-2. cd to checklists/
-3. python checklists.py
-4. RUN SOME CHECKLISTS!
+1. Get Python 2.7+ comes pre-installed on Mac OSX
+2. Launch Terminal
+3. cd to checklists/
+4. python checklists.py
+5. RUN SOME CHECKLISTS!
 
 ### To create your own checklist
 * Copy the example_checklist.json file into your respective repository
@@ -19,13 +20,8 @@ A simple tool to get things done right.
 * Add new checklists as json objects in this file
 * Note that the "Context" checklist is compulsory, all others are optional
 
-### What do I need to run this program?
-[Python](https://www.python.org/), that's it.  
-
-* Tested on Python 2.7+. 
-* Should work on Python 3+ but not tested.
-* All modules are from Python's standard library
-  
+### Python 3 support
+Not yet tested, but will probably work
 
   
 ...inspired by Atul Gawande's Checklist Manifesto
