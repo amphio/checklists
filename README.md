@@ -23,5 +23,5 @@ A simple tool to get things done right.
 ### Python 3 support
 Not yet tested, but will probably work
 
-  
-...inspired by Atul Gawande's Checklist Manifesto
+### Credits
+...inspired by Atul Gawande's *The Checklist Manifesto*
