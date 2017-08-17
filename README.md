@@ -21,3 +21,11 @@ A simple tool to get things done right.
   
   
 ...inspired by Atul Gawande's Checklist Manifesto
+
+
+### Dependancies
+Python, that's it.  
+
+* Tested on Python 2.7+. 
+* Should work on Python 3+ but not tested.
+* All modules are from python's standard library
