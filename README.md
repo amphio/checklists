@@ -18,14 +18,14 @@ A simple tool to get things done right.
 * Edit the iso_checklists.json file
 * Add new checklists as json objects in this file
 * Note that the "Context" checklist is compulsory, all others are optional
-  
-  
-...inspired by Atul Gawande's Checklist Manifesto
 
-
-### Dependancies
-Python, that's it.  
+### What do I need to run this program?
+[Python](https://www.python.org/), that's it.  
 
 * Tested on Python 2.7+. 
 * Should work on Python 3+ but not tested.
-* All modules are from python's standard library
+* All modules are from Python's standard library
+  
+
+  
+...inspired by Atul Gawande's Checklist Manifesto
