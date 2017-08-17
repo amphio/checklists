@@ -21,7 +21,7 @@ A simple tool to get things done right.
 * Note that the "Context" checklist is compulsory, all others are optional
 
 ### Python 3 support
-Not yet tested, but will probably work
+Not yet supported
 
 ### Credits
 ...inspired by Atul Gawande's *The Checklist Manifesto*
