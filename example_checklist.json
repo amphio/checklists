@@ -1,0 +1,17 @@
+{
+    "An example of a checklist":
+    {
+        "Hello! Are you ready to start your checklist? (y/n):" : "y",
+        "Put the expected response in the dict value, so if my expected response is monkeys… :" : "monkeys",
+        "If the input doesn't match the expected response, it will fail the test. Do you understand? (y/n) :" : "y",
+        "You can have multiple parts to your checklist, if you want to check various elements. Want to learn more? (y/n): " : "y"
+    },
+
+    "Another part to my checklist, this time checking the moon":
+    {
+    	"Does the moon have a dark side? (y/n):" : "y",
+    	"Does the moon have craters? (y/n): " : "y",
+    	"Is the moon really made of cheese? (y/n): " : "n"
+
+    }
+}
