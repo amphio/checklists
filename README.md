@@ -2,7 +2,7 @@
 A simple tool to get things done right.
 
 ### To run some checklists
-1. Get Python 2.7+ comes pre-installed on Mac OSX
+1. Get Python 2.7+ (pre-installed on Mac OSX)
 2. Launch Terminal
 3. cd to checklists/
 4. python checklists.py
